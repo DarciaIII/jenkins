@@ -17,5 +17,5 @@ spec:
       - name: flask-app
         image: registry.default.svc.cluster.local:5000/flask-app:latest
         ports:
-        - container port: 5000
+        - containerPort: 5000
         imagePullPolicy: Always
